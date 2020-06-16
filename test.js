@@ -1516,7 +1516,7 @@
     var script = document.currentScript
       ? document.currentScript
       : document.querySelector('script[src$="' + theme + "/widget.js" + '"]');
-    var origin = new URL(script.getAttribute("src")).origin;
+    var origin = 'https://test-telemed.drclinics.ru/nornickel/';
     console.log("Widget origin: " + origin);
     return origin;
   }
